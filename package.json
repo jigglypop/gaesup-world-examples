@@ -1,0 +1,53 @@
+{
+  "name": "gaesup-world-example",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://jigglypop.github.io/gaesup-world-example/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d": "^0.11.2",
+    "@react-three/drei": "9.88.11",
+    "@react-three/fiber": "8.15.9",
+    "@react-three/rapier": "^1.1.2",
+    "@types/three": "^0.158.1",
+    "@vanilla-extract/babel-plugin": "^1.2.0",
+    "@vanilla-extract/css": "^1.13.0",
+    "@vanilla-extract/css-utils": "^0.1.3",
+    "@vanilla-extract/dynamic": "^2.0.3",
+    "@vanilla-extract/next-plugin": "^2.3.1",
+    "@vanilla-extract/recipes": "^0.5.0",
+    "@vanilla-extract/sprinkles": "^1.6.1",
+    "gaesup-world": "^0.0.663",
+    "gh-pages": "^6.1.0",
+    "leva": "0.9.35",
+    "node-fetch": "3.3.2",
+    "react": "^18.2.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.2.0",
+    "react-use-refs": "^1.0.1",
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vanilla-extract/vite-plugin": "^3.9.2",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "path": "^0.12.7",
+    "prettier": "^3.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}
