@@ -223,7 +223,6 @@ export default function Selected() {
           <RigidObjects />
           <FloatMove />
           <Floor />
-          {/* <Slopes /> */}
         </Physics>
       </Canvas>
       <GaeSupTools
