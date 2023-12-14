@@ -53,7 +53,6 @@ export default function Selected() {
         airplaneUrl: AIRPLANE_URL,
       }}
     >
-      <GaeSupTools />
       <div className={style.mainButtonContainer}>
         <button
           className={button({
