@@ -1,9 +1,9 @@
 {
-  "name": "gaesup-world-example",
+  "name": "gaesup-world-examples",
   "version": "0.0.1",
   "type": "module",
   "main": "index.js",
-  "homepage": "https://jigglypop.github.io/gaesup-world-example/",
+  "homepage": "https://jigglypop.github.io/gaesup-world-examples/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
